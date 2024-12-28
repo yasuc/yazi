@@ -70,6 +70,7 @@ keymap = [
   { on = "O", run = "open --interactive", desc = "Open selected files interactively" },
   # { on = "<Enter>", run = "open", desc = "Open selected files" },
   { on = "<Enter>", run = "enter", desc = "Enter the child directory" },
+  { on = "<C-m>", run = "enter", desc = "Enter the child directory" },
   { on = "<S-Enter>", run = "open --interactive", desc = "Open selected files interactively" },
   { on = "y", run = "yank", desc = "Yank selected files (copy)" },
   { on = "x", run = "yank --cut", desc = "Yank selected files (cut)" },
@@ -235,6 +236,10 @@ keymap = [
     "g",
     "y",
   ], run = "cd ~/.config/yazi", desc = "Goto ~/.config/yazi" },
+  { on = [
+    "g",
+    "w",
+  ], run = "cd ~/.config/wezterm", desc = "Goto ~/.config/wezterm" },
   { on = [
     "g",
     "d",
