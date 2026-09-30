@@ -1,0 +1,5 @@
+# Managed by `ya pkg`, and re-deployed on every `ya pkg install` / `ya pkg upgrade`.
+# Keep them out of git so package updates don't produce spurious diffs.
+# `ya pkg` restores them from ~/.cache/yazi/packages and ~/.local/state/yazi/packages.
+/flavors/
+/plugins/
